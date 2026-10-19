@@ -1,0 +1,20 @@
+test_changed_batch_rejected (test_pipeline.Customer360Tests.test_changed_batch_rejected) ... ok
+test_conflicting_source_key (test_pipeline.Customer360Tests.test_conflicting_source_key) ... ok
+test_currency_rejected (test_pipeline.Customer360Tests.test_currency_rejected) ... ok
+test_exact_duplicate_deduplicated (test_pipeline.Customer360Tests.test_exact_duplicate_deduplicated) ... ok
+test_export (test_pipeline.Customer360Tests.test_export) ... ok
+test_input_order_does_not_change_identity (test_pipeline.Customer360Tests.test_input_order_does_not_change_identity) ... ok
+test_missing_trusted_id (test_pipeline.Customer360Tests.test_missing_trusted_id) ... ok
+test_negative_and_boolean_amount_rejected (test_pipeline.Customer360Tests.test_negative_and_boolean_amount_rejected) ... ok
+test_no_email_only_merge (test_pipeline.Customer360Tests.test_no_email_only_merge) ... ok
+test_orphan_rejected (test_pipeline.Customer360Tests.test_orphan_rejected) ... ok
+test_reconciliation (test_pipeline.Customer360Tests.test_reconciliation) ... ok
+test_replay (test_pipeline.Customer360Tests.test_replay) ... ok
+test_rollback_preserves_previous_snapshot (test_pipeline.Customer360Tests.test_rollback_preserves_previous_snapshot) ... ok
+test_snapshot_removal (test_pipeline.Customer360Tests.test_snapshot_removal) ... ok
+test_survivorship (test_pipeline.Customer360Tests.test_survivorship) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.060s
+
+OK

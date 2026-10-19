@@ -1,0 +1,9 @@
+// Create these separately as measures in Power BI Desktop.
+Revenue USD = DIVIDE(SUM(fact_order[amount_cents]), 100)
+Order Count = COUNTROWS(fact_order)
+Customers With Orders = DISTINCTCOUNT(fact_order[golden_id])
+Average Order Value USD = DIVIDE([Revenue USD], [Order Count])
+// Exceptions is a disconnected operations table. These counts intentionally
+// do not inherit the customer region filter in this starter model.
+Rejected Orders = CALCULATE(COUNTROWS(exceptions), exceptions[entity] = "order")
+Rejected Customers = CALCULATE(COUNTROWS(exceptions), exceptions[entity] = "customer")

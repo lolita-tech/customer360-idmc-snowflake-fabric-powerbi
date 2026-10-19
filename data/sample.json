@@ -1,0 +1,96 @@
+{
+  "customers": [
+    {
+      "source": "crm",
+      "customer_id": "C1",
+      "loyalty_id": "L1",
+      "name": "Avery Example",
+      "email": "avery@example.com",
+      "region": "East"
+    },
+    {
+      "source": "shop",
+      "customer_id": "S1",
+      "loyalty_id": "L1",
+      "name": "A. Example",
+      "email": " AVERY@example.com ",
+      "region": "West"
+    },
+    {
+      "source": "crm",
+      "customer_id": "C2",
+      "loyalty_id": "L2",
+      "name": "Blair Sample",
+      "email": "blair@example.com",
+      "region": "West"
+    },
+    {
+      "source": "shop",
+      "customer_id": "S3",
+      "loyalty_id": "L3",
+      "name": "Casey Demo",
+      "email": "shared@example.com",
+      "region": "East"
+    },
+    {
+      "source": "crm",
+      "customer_id": "C4",
+      "loyalty_id": "L4",
+      "name": "Drew Demo",
+      "email": "shared@example.com",
+      "region": "East"
+    },
+    {
+      "source": "shop",
+      "customer_id": "S5",
+      "loyalty_id": "",
+      "name": "Unresolved Demo",
+      "email": "pending@example.com",
+      "region": "West"
+    }
+  ],
+  "orders": [
+    {
+      "source": "crm",
+      "order_id": "O1",
+      "customer_id": "C1",
+      "amount_cents": 10000,
+      "currency": "USD"
+    },
+    {
+      "source": "shop",
+      "order_id": "O2",
+      "customer_id": "S1",
+      "amount_cents": 2500,
+      "currency": "USD"
+    },
+    {
+      "source": "crm",
+      "order_id": "O3",
+      "customer_id": "C2",
+      "amount_cents": 7500,
+      "currency": "USD"
+    },
+    {
+      "source": "shop",
+      "order_id": "O4",
+      "customer_id": "S3",
+      "amount_cents": 9000,
+      "currency": "USD"
+    },
+    {
+      "source": "shop",
+      "order_id": "O5",
+      "customer_id": "S5",
+      "amount_cents": 1500,
+      "currency": "USD"
+    },
+    {
+      "source": "crm",
+      "order_id": "O6",
+      "customer_id": "C2",
+      "amount_cents": 4000,
+      "currency": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "committed",
+  "batch_id": "snapshot-001",
+  "golden_customers": 2,
+  "accepted_orders": 3,
+  "rejected_rows": 6,
+  "revenue_cents": 20000
+}
